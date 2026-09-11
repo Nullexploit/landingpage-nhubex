@@ -1,5 +1,6 @@
 .brand img{display:block;width:126px;height:auto}
 footer .brand img{width:98px}
+.feature-image{display:block;width:58px;height:58px;object-fit:contain;margin:0 0 20px}
 
 .orchestration{display:grid;grid-template-columns:.8fr 1.2fr;gap:7vw;align-items:center;background:#eef6f3}
 .orchestration-copy>p:last-child{max-width:430px;color:var(--muted);font-size:18px;margin-top:28px}
