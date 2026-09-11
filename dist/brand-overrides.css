@@ -1,2 +1,11 @@
 .brand img{display:block;width:126px;height:auto}
 footer .brand img{width:98px}
+
+.orchestration{display:grid;grid-template-columns:.8fr 1.2fr;gap:7vw;align-items:center;background:#eef6f3}
+.orchestration-copy>p:last-child{max-width:430px;color:var(--muted);font-size:18px;margin-top:28px}
+.orchestration-map{height:460px;position:relative;max-width:600px;margin:auto}
+.orchestration-map:before{content:"";position:absolute;inset:52px 68px;border:1px dashed #b8d0cf;border-radius:50%}
+.node{position:absolute;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;border:1px solid #d2e3df;background:#fff;box-shadow:0 12px 28px rgba(17,35,49,.08);color:var(--deep);border-radius:50%;width:116px;height:116px;font-size:13px;z-index:1}
+.node span{font-size:25px;color:var(--blue);margin-bottom:4px}.node-pos{width:188px;height:188px;left:50%;top:50%;transform:translate(-50%,-50%);border:7px solid #d8eddd;background:var(--deep);color:#fff;box-shadow:0 0 0 1px #a8c9bc,0 18px 40px rgba(15,48,69,.22)}.node-pos img{width:108px;margin-bottom:13px}.node-pos strong{font-size:15px}.node-payment{left:0;top:34px}.node-market{right:0;top:28px}.node-stock{left:0;bottom:32px}.node-data{right:0;bottom:25px}.connection{position:absolute;height:1px;background:#a9c9c7;width:145px;left:50%;top:50%;transform-origin:left center}.connection-a{transform:rotate(-143deg)}.connection-b{transform:rotate(-37deg)}.connection-c{transform:rotate(143deg)}.connection-d{transform:rotate(37deg)}
+.screenshots{position:absolute;inset:36px 0 0;display:flex;align-items:flex-start;justify-content:center;gap:14px;transform:rotate(-3deg)}.screenshots img{width:37%;height:290px;object-fit:cover;object-position:top;border:7px solid #fff;border-radius:8px;box-shadow:0 20px 28px rgba(0,0,0,.22)}.screenshots img:nth-child(2){margin-top:32px}.screenshots img:nth-child(3){margin-top:62px}
+@media(max-width:800px){.orchestration{grid-template-columns:1fr}.orchestration-map{height:390px}.node{width:90px;height:90px;font-size:11px}.node-pos{width:150px;height:150px}.node-pos img{width:82px}.node-pos strong{font-size:12px}.connection{width:105px}.screenshots img{height:220px;border-width:5px}}
